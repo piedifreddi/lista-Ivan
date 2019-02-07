@@ -1,0 +1,111 @@
+body {
+	background-color: black;
+	background-size: contain;
+	font-family: 'cinzel', cursive;
+}
+
+.header {
+	background-color: #FFF;
+	padding: 30px;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	margin-bottom: 57px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.header {
+	background-image: url("http://i.imgur.com/9X8rgmf.jpg");
+	background-size: contain;
+	margin-bottom: 10px;
+}
+
+.header img {
+	display: block;
+	width: 5px;
+	height: 5px;
+	margin: auto;
+}
+
+p.name {
+	font-size: x-large;
+	text-align: center;
+}
+
+p.job {
+	font-size: large;
+	text-align: center;
+}
+
+.image1 {
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-right: 5px;
+}
+
+p.instagram {
+	float: left;
+	font-size: small;
+}
+
+.image2 {
+	float: left;
+	height: 45px;
+	width: 45px;
+	margin-left: 10px;
+}
+
+p.facebook {
+	font-size: small;
+}
+
+a:link {
+  color: #FFAA00;
+}
+
+a:visited {
+  color: #FFAA00;
+}
+
+a:hover {
+  color: #FFAA00;
+}
+
+a:active {
+  color: #FFAA00;
+}
+
+hr {
+  border-top: 1px solid red;
+  bottom: 70px;
+}
+
+p.mail {
+	color: #FFAA00;
+	font-family: 'cinzel', cursive;
+	font-size: small;
+}
+
+.w3-content {
+	border: 2px solid white;
+	
+}
+
+img.bottle {
+	position: absolute;
+	width: 90px;
+	height: 120px;
+	top: 30px;
+	left: 15px;
+	transform: rotate(335deg);
+}
+
+img.glass {
+	position: absolute;
+	width: 90px;
+	height: 120px;
+	top: 30px;
+	right: 15px;
+	transform: rotate(30deg);
+}
